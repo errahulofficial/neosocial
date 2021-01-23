@@ -1,0 +1,223 @@
+
+{{-- <script type="text/javascript">
+    $(document).ready(function(){
+        var bus = JSON.parse('<?php echo $b_data ?>');
+        var grp = JSON.parse('<?php echo $g_data ?>');
+        $.each(bus, function(i, item) {
+            
+    $('input[type="checkbox"][name="bus-'+item['id']+'"]').on('change',function(event){
+        event.preventDefault();  
+        
+        if($(this).is(':checked'))  {
+            $.ajax({
+           type:"GET",
+           url:'/ajax/business/'+item['id'],
+		   dataType: "json",
+           success:function(res){               
+            if(res){
+                console.log(res);
+                var content = "<table>"
+                for(i=0; i<res[0].length; i++){
+                    content += '<tr><td>' + res[0][0].b_id + '</td></tr>';
+                }
+                content += "</table>"
+
+                $('#content').append(content);
+                
+           
+            }else{
+                
+               
+            }
+           }
+		});
+            
+        } 
+        else{
+                console.log('Kahli');
+        }
+        });
+        });
+        $.each(grp, function(i, item) {
+            
+    $('input[type="checkbox"][name="grp-'+item['id']+'"]').on('change',function(event){
+        event.preventDefault();  
+        
+        if($(this).is(':checked'))  {
+            $.ajax({
+           type:"GET",
+           url:'/ajax/group/'+item['id'],
+		   dataType: "json",
+           success:function(res){               
+            if(res){
+				console.log(res);
+                var content = "<table class='table'><thead><td>ACCOUNTS</td><td>CITY/STATE</td><td>POST TO SOCIAL NETWORKS</td><td>POSTING DATE</td><td>SCHEDULE</td><td>STATUS</td><td>ACTIONS</td></thead>"
+                for(i=0; i<res[0].length; i++){
+                    content += '<tr class='+res[0][i][0].b_id+'><td>' + res[0][i][0].b_name + '</td> <td>' + res[0][i][0].b_address + '</td><td>' + res[1][0][0].name + '</td><td>' + res[0][i][0].posting_time + '</td><td>Good</td><td>Good</td><td>x</td></tr>';
+                }
+                content += "</table>"
+
+                $('#content').append(content);
+                // $.each(res,function(key,value){
+                //     $("#bus_grp").append('<option value="'+key+'">'+value+'</option>');
+                // });
+           
+            }else{
+                
+                res.empty();
+                console.log("Kahli");
+            }
+           }
+		});
+            
+        } 
+        else{
+
+        }
+        });
+        });
+    });
+</script> --}}
+
+
+
+
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card">
+                <div class="card-header"> Add Business</div>
+                <div class="col-md-12">
+                    @foreach ($errors->all() as $error)
+                    <div class="alert alert-danger">
+                        <ul>
+                            <li>{{ $error }}</li>
+                        </ul>
+                    </div>
+                    @endforeach @if (Session::has("success"))
+                    <div class="alert alert-success">
+                        <ul>
+                            <li>{{ Session::get("success") }}</li>
+                        </ul>
+                    </div>
+                    @endif
+                </div>
+                {!! Form::open(['action' => 'BusinessController@store','id'=>'form']) !!} 
+        {{ Form::token() }}
+        <div class="box-body">
+            <div class="row">
+			
+				
+				 <div class="col-md-12 form-group">
+                    <label for="First Name">Business Type</label> {{ Form::radio('b_type', '1', false) }}  Local Business 
+                    {{ Form::radio('b_type', '2', false) }}  Online Business
+                </div>
+				
+				<div class="col-md-12 form-group">
+                    <label for="b_name">Business Name</label> {{ Form::text('b_name', '',array('class' => 'form-control','placeholder'
+                    => 'Business Name','required'=>'true')) }}
+                </div>
+                <div class="col-md-12 form-group">
+                    <label for="category">Business Category</label> {{ Form::text('category', '',array('class' => 'form-control','placeholder'
+                    => 'State Code','required'=>'true')) }}
+                </div>
+                <div class="col-md-12 form-group">
+                    <label for="phone">Phone</label> {{ Form::text('phone', '',array('class' => 'form-control','placeholder'
+                    => 'Phone','required'=>'true')) }}
+                </div>
+                <div class="col-md-12 form-group">
+                    <label for="address">Address</label> {{ Form::text('address', '',array('class' => 'form-control','placeholder'
+                    => 'Address','required'=>'true')) }}
+                </div>
+                <div class="col-md-12 form-group">
+                    <label for="city">City</label> {{ Form::text('city', '',array('class' => 'form-control','placeholder'
+                    => 'City','required'=>'true')) }}
+                </div>
+                <div class="col-md-12 form-group">
+                    <label for="state">State</label> {{ Form::text('state', '',array('class' => 'form-control','placeholder'
+                    => 'State','required'=>'true')) }}
+                </div>
+                <div class="col-md-12 form-group">
+                    <label for="zip">Zip</label> {{ Form::text('zip', '',array('class' => 'form-control','placeholder'
+                    => 'Zip code','required'=>'true')) }}
+                </div>
+                <div class="col-md-12 form-group">
+                    <label for="niche">Niche</label> {{ Form::text('niche', '',array('class' => 'form-control','placeholder'
+                    => 'Niche','required'=>'true')) }}
+                </div>
+                <div class="col-md-12 form-group">
+                    <label for="website">Website</label> {{ Form::text('website', '',array('class' => 'form-control','placeholder'
+                    => 'http://example.com','required'=>'true')) }}
+                </div>
+                <div class="col-md-6 form-group">
+                    <label for="contact_fname">Contact Name</label> {{ Form::text('contact_fname', '',array('class' => 'form-control','placeholder'
+                    => 'First Name','required'=>'true')) }}
+                </div>
+                <div class="col-md-6 form-group">
+                    <label for="contact_lname">.</label> {{ Form::text('contact_lname', '',array('class' => 'form-control','placeholder'
+                    => 'Last Name','required'=>'true')) }}
+                </div>
+                <div class="col-md-12 form-group">
+                    <label for="contact_title">Title</label> {{ Form::text('contact_title', '',array('class' => 'form-control','placeholder'
+                    => 'Contact Title, Position','required'=>'true')) }}
+                </div>
+                <div class="col-md-12 form-group">
+                    <label for="contact_email">Contact Email</label> {{ Form::text('contact_email', '',array('class' => 'form-control','placeholder'
+                    => 'Email Address','required'=>'true')) }}
+                </div>
+                <div class="col-md-12 form-group">
+                    <label for="city">Contact Phone</label> {{ Form::text('contact_phone', '',array('class' => 'form-control','placeholder'
+                    => 'Contact Phone Number','required'=>'true')) }}
+                </div>
+                {{-- <div class="col-md-12 form-group">
+                    @foreach($social_platform as $social)
+                <label for="monthly_goal-{{ $social->id }}">{{ $social->name }} Monthly Goals</label> {{ Form::number('monthly_goal-'.$social->id, '',array('class' => 'form-control','placeholder'
+                    => '0','required'=>'true')) }}
+                    @endforeach
+                </div>
+                <div class="col-md-12 form-group">
+                    <label for="city">City</label> {{ Form::text('city', '',array('class' => 'form-control','placeholder'
+                    => 'City','required'=>'true')) }}
+                </div>
+                <div class="col-md-12 form-group">
+                    <label for="city">City</label> {{ Form::text('city', '',array('class' => 'form-control','placeholder'
+                    => 'City','required'=>'true')) }}
+                </div>
+                <div class="col-md-12 form-group">
+                    <label for="city">City</label> {{ Form::text('city', '',array('class' => 'form-control','placeholder'
+                    => 'City','required'=>'true')) }}
+                </div> --}}
+                
+                <div class="col-md-12 form-group">
+                    {{ Form::submit('Next',array('class' => 'btn btn-primary')) }}
+                </div>
+            </div>
+        </div>
+        {!! Form::close() !!}
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+//echo date("Y-m-d h:i a", time());
+
+$date = new DateTime(date("Y-m-d h:i a", time()), new DateTimeZone('America/Denver'));
+//echo $date->format('Y-m-d h:i a');
+
+
+
+
+date_default_timezone_set('Asia/Calcutta');
+$datetime = '2020-07-11 11:38 AM';
+$asia_timestamp = strtotime($datetime);
+echo date_default_timezone_get()."<br>"; // Asia/Calcutta
+date_default_timezone_set('UTC');
+echo date_default_timezone_get()."<br>"; //UTC
+echo $utcDateTime = date("Y-m-d h:ia", $asia_timestamp);

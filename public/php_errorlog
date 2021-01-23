@@ -1,0 +1,4 @@
+[19-Sep-2020 01:15:46 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function public_path() in /home/customer/www/ns.neodev.space/public/php.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/ns.neodev.space/public/php.php on line 3

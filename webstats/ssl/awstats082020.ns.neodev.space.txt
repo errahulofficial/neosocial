@@ -1,0 +1,419 @@
+AWSTATS DATA FILE 7.4 (build 20140726)
+# If you remove this file, all statistics for date 202008 will be lost/reset.
+# Last config file used to build this data file was /home/neovora6/tmp/awstats/ssl/awstats.ns.neodev.space.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2016                
+POS_TIME 2689                
+POS_VISITOR 8713                
+POS_DAY 10814               
+POS_DOMAIN 3429                
+POS_LOGIN 3745                
+POS_ROBOT 3900                
+POS_WORMS 4182                
+POS_EMAILSENDER 4313                
+POS_EMAILRECEIVER 4456                
+POS_SESSION 11202               
+POS_SIDER 11409               
+POS_FILETYPES 4591                
+POS_DOWNLOADS 4873                
+POS_OS 4960                
+POS_BROWSER 5108                
+POS_SCREENSIZE 5390                
+POS_UNKNOWNREFERER 5464                
+POS_UNKNOWNREFERERBROWSER 5686                
+POS_ORIGIN 5903                
+POS_SEREFERRALS 6045                
+POS_PAGEREFS 6202                
+POS_SEARCHWORDS 6589                
+POS_KEYWORDS 6741                
+POS_MISC 2351                
+POS_ERRORS 6800                
+POS_CLUSTER 3601                
+POS_SIDER_404 6967                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20200822121406 1 0 9882468123702
+FirstTime 20200801030156
+LastTime 20200821045100
+LastUpdate 20200823070816 1 0 1 0 0
+TotalVisits 48                  
+TotalUnique 38                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 54                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+DirectorSupport 0 0 0
+JavascriptDisabled 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+AddToFavourites 0 113 0
+JavaEnabled 0 0 0
+QuickTimeSupport 0 0 0
+FlashSupport 0 0 0
+PDFSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 17 24 938862 8 37 47950
+1 55 69 6203851 19 57 92926
+2 101 491 8871981 51 172 3323904
+3 77 150 2283047 64 182 4193176
+4 33 92 2205038 31 57 11979213
+5 21 113 1635249 18 40 1299803
+6 2 2 5574 4 10 1821460
+7 2 4 628269 1 6 5058
+8 53 235 13150975 31 61 1893707
+9 66 227 11260392 35 94 1379297
+10 106 303 28333008 71 160 2654606
+11 115 334 33142724 52 303 6084849
+12 59 75 2217132 50 128 2220698
+13 0 0 0 0 0 0
+14 0 0 0 0 5 7760
+15 1 1 1138 3 3 1862
+16 0 0 0 0 0 0
+17 0 0 0 0 0 0
+18 0 0 0 0 0 0
+19 0 0 0 0 0 0
+20 0 0 0 0 0 0
+21 17 85 2399662 7 16 18398
+22 22 161 10033862 13 31 37088
+23 43 237 19487388 23 75 555171
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 6
+us 298 882 46862244
+in 222 646 28400463
+fr 186 836 61716241
+br 79 185 5102779
+ie 4 53 715287
+de 1 1 1138
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 4
+no_user_agent 18 1043338 20200802025137 0
+bot[\s_+:,\.\;\/\\-] 6 80676 20200807035356 3
+unknown 3 120 20200818100141 3
+robot 2 53704 20200801023138 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 11
+jpg 106 70344018 0 0
+woff 1 89824 0 0
+png 326 30359507 0 0
+html 19 118955 0 0
+map 26 1430857 0 0
+js 735 17717278 0 0
+woff2 87 5027484 0 0
+Unknown 657 8331133 0 0
+csv 1 1308 0 0
+css 613 6932860 0 0
+jpeg 32 2444928 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 1
+/post-format/posts_format.csv 1 0 1308
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 6
+win7 3 1
+linux 1 1
+macosx 1388 341
+Unknown 14 1
+linuxandroid 162 33
+winnt 1035 413
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 10
+chrome84.0.4147.105 454 181
+chrome84.0.4147.125 1217 339
+chrome83.0.4103.106 106 23
+netscape5.0 1 1
+Unknown 14 1
+chrome22.0.1216.0 2 0
+chrome84.0.4147.89 274 167
+chrome79.0.3945.79 1 1
+firefox78.0 371 54
+chrome84.0.4147.135 163 23
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 3
+Google-Gmb-Api 20200816235224
+facebookplatform/1.0_(_http://developers.facebook.com) 20200821020010
+WhatsApp/2.2031.4_N 20200814024555
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 3
+WhatsApp/2.2031.4_N 20200814024555
+facebookplatform/1.0_(_http://developers.facebook.com) 20200821020010
+Google-Gmb-Api 20200816235224
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 87 102
+From1 0 0
+From2 10 10
+From3 34 34
+From4 659 2457
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+google 10 10
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 5
+https://www.facebook.com/dialog/oauth/business/cancel/ 24 24
+https://api.twitter.com/oauth/authorize 3 3
+https://m.facebook.com/dialog/oauth/business/cancel/ 3 3
+https://l.facebook.com 3 3
+https://platform.hootsuite.com/oauth2/consent 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 7
+302 287 165378
+500 49 28471008
+444 2 0
+404 848 1316096
+206 76 6482372
+301 11 4234
+499 22 0
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 23
+/social-setup/21 2 https://ns.neodev.space/social-setup/21/17
+/plugins/jqvmap/maps/jquery.vmap.usa.js')%7D%7D 107 https://ns.neodev.space/business
+/dist/img/small-logo.png 2 https://ns.neodev.space/settings
+/business/31/assets/img/dots.svg 6 https://ns.neodev.space/business/31/setup
+/facebook/auth/,https://ns.neodev.space/accounts/facebook 1 -
+/accounts/facebook 1 -
+/dist/img/medium-logo.png 2 https://ns.neodev.space/settings
+/business/21/assets/img/dots.svg 81 https://ns.neodev.space/business/21/setup
+/business/27/assets/img/dots.svg 3 https://ns.neodev.space/business/27/setup
+/assets/img/dots.svg 128 https://ns.neodev.space/business
+/business/29/assets/img/dots.svg 43 https://ns.neodev.space/business/29/setup
+/business/34/assets/img/dots.svg 4 https://ns.neodev.space/business/34/setup
+/post_images/20200604_477431/Y57545801758443.png 1 -
+/js/popper.js.map 1 -
+/business/28/assets/img/dots.svg 69 https://ns.neodev.space/business/28/setup
+/business/33/assets/img/dots.svg 2 https://ns.neodev.space/business/33/setup
+/img/blank.png 359 https://ns.neodev.space/business/21/setup
+/dist/img/branding-img.png 2 https://ns.neodev.space/settings
+/business/32/assets/img/dots.svg 3 https://ns.neodev.space/business/32/setup
+/business/30/assets/img/dots.svg 16 https://ns.neodev.space/business/30/setup
+/login.php 1 -
+/business/35/assets/img/dots.svg 3 https://ns.neodev.space/business/35/setup
+/plugins/flot/jquery.flot.js.map 11 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 54
+117.222.203.35 150 266 16068664 20200818124116
+163.114.131.3 97 347 24430789 20200820093132
+179.216.174.54 79 185 5102779 20200816090933
+107.170.166.118 66 73 1253261 20200810012056
+117.222.217.158 58 342 4957495 20200814030113
+163.114.133.1 48 284 19423216 20200819224242
+163.114.131.1 32 122 10312594 20200820084805
+205.253.248.255 30 32 889994 20200815034653
+205.253.171.54 29 225 3533096 20200807050710
+107.170.145.187 24 24 306597 20200801045527
+104.131.75.86 22 86 1670100 20200814034759
+162.243.127.7 17 17 562401 20200801051651
+205.253.184.220 14 15 394397 20200810020134
+169.149.50.22 12 79 2022014 20200816234540
+104.236.53.155 10 44 7498139 20200821001916
+163.114.132.3 9 83 7549642 20200818113630
+169.149.62.126 9 61 927463 20200802025405
+104.131.92.125 8 44 8524831 20200820115323
+169.149.18.158 8 10 785740 20200817012837
+104.236.195.72 8 65 1829569 20200821040157
+104.131.188.187 7 16 2011500 20200801032222
+117.198.239.115 7 20 1419114 20200816085327
+169.149.10.104 6 10 443463 20200816235230
+205.253.155.12 5 13 854722 20200807102001
+169.149.61.40 5 13 3637806 20200818115705
+169.149.54.110 2 2 36754 20200817011723
+35.209.63.149 0 2 412216 
+86.44.114.202 4 53 715287 20200820091001
+169.149.31.162 0 3 1329243 
+74.125.212.73 0 1 51976 
+117.203.197.79 4 14 5597759 20200819102007
+169.149.26.108 3 12 379229 20200802025412
+69.171.251.33 0 1 22318 
+205.253.210.211 1 1 16491 20200810022425
+173.252.127.9 0 1 73556 
+205.253.151.108 2 2 5574 20200807062927
+61.1.8.224 3 4 357431 20200819025823
+173.252.127.5 0 1 51976 
+173.252.127.20 0 1 193684 
+74.125.212.75 0 1 457275 
+169.149.47.174 0 1 1007634 
+173.252.127.116 0 1 73556 
+169.149.47.64 1 1 4104 20200809015503
+173.252.127.119 0 1 73556 
+131.220.6.156 1 1 1138 20200815155133
+66.102.7.211 0 1 51976 
+104.236.70.228 1 1 1139 20200821045100
+52.114.6.38 1 1 1140 20200816085728
+173.252.127.22 0 1 324379 
+74.125.212.71 0 1 325860 
+173.252.127.24 0 1 234522 
+169.149.47.38 4 13 4250809 20200819015227
+173.252.127.7 0 1 325860 
+169.149.3.182 3 3 12324 20200809015431
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 13
+20200801 48 50 1046940 3
+20200802 12 73 1306692 2
+20200807 36 240 4393392 4
+20200809 52 52 289022 3
+20200810 33 43 1900806 3
+20200814 136 551 9607245 3
+20200815 31 33 891132 2
+20200816 66 259 9060242 6
+20200817 10 13 1146873 2
+20200818 250 625 48504838 6
+20200819 55 246 27440267 5
+20200820 58 413 36656455 6
+20200821 3 5 554248 3
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 5
+5mn-15mn 11
+30mn-1h 4
+2mn-5mn 5
+30s-2mn 7
+15mn-30mn 5
+0s-30s 11
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 48
+/post/add-single 113 1494747 6 7
+/business 107 689539 2 6
+/business/21/setup 91 2191914 7 12
+/business/28/setup 69 1221195 0 0
+/instagram/21 57 232488 4 4
+/business/29/setup 43 875164 0 1
+/login 28 31956 22 4
+/plugins/fontawesome-free/webfonts/fa-regular-400.woff2 23 312432 0 1
+/plugins/fontawesome-free/webfonts/fa-brands-400.woff2 22 1685464 0 2
+/plugins/fontawesome-free/webfonts/fa-solid-900.woff2 22 1733860 0 0
+/business/add 21 260665 2 1
+/ 19 118955 0 0
+/posting-schedule 17 229984 0 2
+/business/30/setup 16 218865 0 1
+/fonts/vendor/admin-lte/plugins/fontawesome-free/webfa-solid-900.woff2 16 1271104 0 1
+/ajax/post-business 10 179926 0 3
+/ggle/callback 10 27197 3 0
+/calendar 10 59507 0 0
+/post-multiple/add 8 59200 0 0
+/content-designer 7 82248 0 0
+/group 7 53586 0 0
+/business/31/setup 6 84873 0 0
+/social-setup/21/17 6 17222 2 0
+/plugins/summernote/font/summernote.woff2 4 24624 0 0
+/business/34/setup 4 72178 0 1
+/plugins/summernote/summernote-bs4.min.js.map 3 324141 0 0
+/dist/css/adminlte.min.css.map 3 563020 0 0
+/business/32/setup 3 45710 0 0
+/business/35/setup 3 45662 0 1
+/plugins/bootstrap-colorpicker/js/bootstrap-colorpicker.min.js.map 3 161769 0 0
+/business/27/setup 3 53543 0 1
+/instagram/29 2 8214 0 0
+/ajax-add-package 2 354 0 0
+/plugins/bootstrap-colorpicker/css/bootstrap-colorpicker.min.css.map 3 9312 0 0
+/plugins/toastr/toastr.js.map 4 25696 0 0
+/business/33/setup 2 32689 0 0
+/get-formatted-csv 2 1812 0 0
+/plugins/bootstrap/js/bootstrap.bundle.min.js.map 3 251664 0 0
+/dist/js/adminlte.js.map 3 72603 0 0
+/settings 2 32435 0 0
+/ajax/group/10 2 36 0 0
+/instagram/30 1 4106 0 0
+/plugins/ekko-lightbox/ekko-lightbox.min.js.map 4 22652 0 0
+/plugins/fontawesome-free/webfonts/fa-brands-400.woff 1 89824 0 0
+/insta/callback 1 3432 0 0
+/ajax/busgrp/21/0/14 1 10549 0 0
+/filetoprev 1 386 0 0
+/leadgen-campaign 2 9751 0 0
+END_SIDER

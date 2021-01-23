@@ -1,0 +1,352 @@
+AWSTATS DATA FILE 7.4 (build 20140726)
+# If you remove this file, all statistics for date 202007 will be lost/reset.
+# Last config file used to build this data file was /home/neovora6/tmp/awstats/awstats.ns.neodev.space.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2012                
+POS_TIME 2674                
+POS_VISITOR 7404                
+POS_DAY 8516                
+POS_DOMAIN 3300                
+POS_LOGIN 3544                
+POS_ROBOT 3699                
+POS_WORMS 3866                
+POS_EMAILSENDER 3997                
+POS_EMAILRECEIVER 4140                
+POS_SESSION 8825                
+POS_SIDER 9030                
+POS_FILETYPES 4275                
+POS_DOWNLOADS 4489                
+POS_OS 4537                
+POS_BROWSER 4694                
+POS_SCREENSIZE 4966                
+POS_UNKNOWNREFERER 5040                
+POS_UNKNOWNREFERERBROWSER 5267                
+POS_ORIGIN 5489                
+POS_SEREFERRALS 5625                
+POS_PAGEREFS 5778                
+POS_SEARCHWORDS 5926                
+POS_KEYWORDS 6087                
+POS_MISC 2337                
+POS_ERRORS 6155                
+POS_CLUSTER 3400                
+POS_SIDER_404 6308                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20200801032104 3 306 10343497069515
+FirstTime 0
+LastTime 20200731014707
+LastUpdate 20200801070604 3 0 2 0 0
+TotalVisits 22                  
+TotalUnique 17                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 31                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+DirectorSupport 0 0 0
+PDFSupport 0 0 0
+AddToFavourites 0 26 0
+RealPlayerSupport 0 0 0
+FlashSupport 0 0 0
+JavascriptDisabled 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+JavaEnabled 0 0 0
+TotalMisc 0 0 0
+QuickTimeSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 16 77 2804662 11 19 16846
+1 29 126 3519525 16 25 23694
+2 6 6 55276 4 8 12416
+3 0 4 140850 0 0 0
+4 20 119 2132414 7 34 2419260
+5 24 73 1793706 11 21 19776
+6 9 27 253011 15 29 33378
+7 0 0 0 0 0 0
+8 0 0 0 0 0 0
+9 0 2 53704 0 0 0
+10 17 75 1018461 8 18 20868
+11 27 98 2529470 31 36 6162826
+12 17 17 153306 32 42 3129671
+13 9 13 170450 14 17 20284
+14 0 0 0 0 0 0
+15 0 0 0 0 0 0
+16 0 0 0 0 0 0
+17 0 0 0 0 0 0
+18 0 0 0 1 1 0
+19 0 0 0 0 0 0
+20 0 0 0 0 0 0
+21 0 0 0 0 0 0
+22 0 0 0 0 0 0
+23 3 3 2216 2 2 358
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 2
+us 177 639 14615388
+in 0 1 11663
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 1
+no_user_agent 6 0 20200731065810 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 8
+Unknown 117 936729 0 0
+jpeg 2 0 0 0
+png 37 832248 0 0
+woff2 34 2060584 0 0
+js 266 7903445 0 0
+html 19 108046 0 0
+map 7 536804 0 0
+css 158 2249195 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 7
+winnt 489 139
+Unknown 16 0
+linux 1 1
+win7 1 0
+ios_iphone 6 0
+linuxandroid 121 37
+macosx 6 0
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 10
+chrome84.0.4147.89 234 86
+chrome78.0.3904.108 6 0
+Unknown 16 0
+chrome84.0.4147.105 100 38
+chrome83.0.4103.106 121 37
+chrome83.0.4103.116 148 9
+firefox17.0 1 1
+safari12.1 6 0
+chrome74.0.3729.131 4 4
+chrome76.0.3809.71 4 2
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 3
+facebookplatform/1.0_(_http://developers.facebook.com) 20200704011707
+Dispatch/0.11.1-SNAPSHOT 20200731094011
+Google-Gmb-Api 20200706003602
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 3
+Google-Gmb-Api 20200706003602
+Dispatch/0.11.1-SNAPSHOT 20200731094011
+facebookplatform/1.0_(_http://developers.facebook.com) 20200704011707
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 44 73
+From1 1 1
+From2 1 1
+From3 0 0
+From4 131 565
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+bing 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 1
+amazon 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 1
+amazon 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 6
+405 1 552333
+444 3 0
+500 18 11000213
+302 58 28062
+404 137 212624
+206 3 66145
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 15
+/assets/img/dots.svg 26 http://ns.neodev.space/business
+/email-open 8 http://ns.neodev.space/business/add
+/plugins/jqvmap/maps/jquery.vmap.usa.js')%7D%7D 23 http://ns.neodev.space/business
+/img/blank.png 14 http://ns.neodev.space/business/21/setup
+/email-open/26 4 -
+/business/27/assets/img/dots.svg 7 http://ns.neodev.space/business/27/setup
+/email-open/28 1 http://ns.neodev.space/business/28/setup
+/email-open/21 12 -
+/business/21/assets/img/dots.svg 20 http://ns.neodev.space/business/21/setup
+/email-open/24 15 -
+/email-open/23 2 http://ns.neodev.space/business/add
+/plugins/flot/jquery.flot.js.map 2 -
+/email-open/22 1 http://ns.neodev.space/business/add
+/mail-send 1 http://ns.neodev.space/business/add
+/business/28/assets/img/dots.svg 1 http://ns.neodev.space/business/28/setup
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 31
+205.253.236.20 39 46 476306 20200727131448
+205.253.139.24 33 92 1734877 20200730062033
+205.253.173.161 17 75 1018461 20200718102531
+205.253.153.35 16 66 1997363 20200723050446
+205.253.228.1 14 70 2141397 20200718002845
+205.253.207.126 11 30 1592101 20200727112739
+205.253.244.62 11 15 763956 20200728063900
+205.253.239.128 8 44 1014854 20200727011533
+205.253.211.120 6 6 59143 20200727053021
+205.253.186.109 6 11 650833 20200731014707
+74.125.210.14 4 54 718635 20200730045519
+74.125.210.18 3 50 589492 20200730115237
+3.135.227.232 2 2 2215 20200723012946
+74.125.210.16 2 43 728747 20200730115237
+44.229.14.212 2 2 2216 20200704232631
+70.42.131.189 2 4 628276 20200718001215
+35.209.64.57 1 1 0 20200705232500
+173.252.127.22 0 1 11663 
+35.233.219.24 0 2 0 
+35.233.141.159 0 2 0 
+66.102.7.223 0 1 11663 
+34.83.8.78 0 2 0 
+35.247.26.50 0 2 0 
+34.206.217.125 0 10 426538 
+173.252.127.20 0 1 11663 
+103.255.83.122 0 1 11663 
+74.125.212.82 0 1 11663 
+35.233.206.178 0 2 0 
+35.230.114.202 0 2 0 
+173.252.127.15 0 1 11663 
+74.125.212.78 0 1 11663 
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 11
+20200702 0 3 34989 0
+20200704 2 3 13879 1
+20200705 1 1 0 1
+20200706 0 3 34989 0
+20200718 33 152 3893995 3
+20200719 0 3 105861 0
+20200723 18 68 1999578 2
+20200727 64 126 3142404 4
+20200728 11 15 763956 2
+20200730 42 239 3771751 8
+20200731 6 27 865649 1
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+30mn-1h 3
+15mn-30mn 3
+30s-2mn 3
+5mn-15mn 3
+1h+ 1
+2mn-5mn 1
+0s-30s 8
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 28
+/business/add 26 301325 2 2
+/business 23 130283 0 2
+/business/21/setup 20 260604 0 4
+/ 19 108046 2 0
+/login 19 20600 13 1
+/plugins/fontawesome-free/webfonts/fa-solid-900.woff2 9 714996 2 1
+/plugins/fontawesome-free/webfonts/fa-brands-400.woff2 9 689508 1 3
+/fonts/vendor/admin-lte/plugins/fontawesome-free/webfa-solid-900.woff2 7 556108 0 2
+/business/27/setup 7 95251 0 0
+/plugins/fontawesome-free/webfonts/fa-regular-400.woff2 6 81504 0 0
+/social-setup/27/19 4 11396 2 1
+/group 4 30879 0 1
+/plugins/summernote/font/summernote.woff2 3 18468 0 0
+/_ignition/health-check 3 87 0 1
+/content-designer 3 34313 0 1
+/password/reset 2 2151 0 2
+/mail-send/24 2 14716 0 0
+/plugins/bootstrap-colorpicker/js/bootstrap-colorpicker.min.js.map 1 53923 0 0
+/dist/css/adminlte.min.css.map 1 257217 0 0
+/post/add-single 1 12084 0 0
+/plugins/summernote/summernote-bs4.min.js.map 1 108047 0 0
+/business/28/setup 1 13057 0 0
+/plugins/bootstrap-colorpicker/css/bootstrap-colorpicker.min.css.map 1 3104 0 0
+/plugins/toastr/toastr.js.map 1 6424 0 0
+/post-multiple/add 1 7114 0 0
+/plugins/bootstrap/js/bootstrap.bundle.min.js.map 1 83888 0 0
+/social-setup/21 1 2869 0 1
+/dist/js/adminlte.js.map 1 24201 0 0
+END_SIDER

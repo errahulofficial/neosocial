@@ -1,0 +1,137 @@
+.orange-button{
+    padding: 2.5px 5px;
+    color: #fff;
+    border: none;
+    font-weight: 700;
+    background-image: -webkit-linear-gradient(90deg, rgb(255, 144, 0) 0%, rgb(255, 158, 32) 100%);
+}
+.select-box-icon i{color: #fff;}
+.select-box-icon{background: #ff9d03;
+    border: 1px solid #f6f6f6;
+    color: #9399a7;
+    padding: 0;
+    font-size: 15px;
+    border-radius: 2px;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;}
+
+    ul.icon-list {
+        padding-left: 0px;
+        margin-bottom: 0px;
+    }
+     ul.icon-list li {
+        list-style: none;
+        padding-left: 20px;
+        color: #656C78;
+        font-size: 13px;
+        position: relative;
+    }
+     ul.icon-list li i {
+        position: absolute;
+        left: 0px;
+        color: #ced6e5;
+        font-size: 13px;
+        top: 2px;
+    }
+    .social-icons li {
+        padding-left: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+    }
+    .social-icons ul{display: flex;
+        justify-content: space-between;
+        align-items: center;
+    padding-left: 0px;}
+   .social-icons li i {
+        position: inherit;
+        top: inherit;
+        color: #fff;
+    }
+    .social-icons{max-width: 200px;}
+    .btn-outline-info:focus{background-color: #17a2b8; color: #fff;}
+    .btn-outline-warning:focus{background-color: #ffc107; color:#fff;}
+    
+
+/*---Business-Listing-Start----*/
+
+ 
+#business-listing .business-content table tr td ul li a {
+    color: #337ab7;
+    text-decoration: none;
+}
+
+
+.facebook-bg {
+    background-color: #3c579e;
+}
+.twitter-bg {
+    background-color: #56abed;
+}
+.instagram-bg {
+    background-color: #ff9d03;
+}
+.google-bg {
+    background-color: #00c853;
+}
+
+#business-listing #business-listing .dropdown.tir{position: relative; display: inline-block;}
+#business-listing .dropdown-content{display: none;
+                                position: absolute; z-index: 1; background-color: #fff;
+                                width: 200px;
+                                right: -10px;
+                                border: 1px solid #3b5998;
+                                border-radius: 10px;}
+                                #business-listing .card-header .dropdown-content a{display: block;}
+                                #business-listing .card-header .dropdown-content a .box407AFE{background: #3b5998;
+                                    color: #fff;
+                                    border-radius: 30px;
+                                    padding: 5px 20px;
+                                    margin: 10px;}
+                                    #business-listing .card-header .dropdown-content a .box407AFE i{margin-right: 10px;}
+                                    #business-listing .card-header .dropdown-content.show{display: block!important;}
+                                    #business-listing .card-header .dropdown-content:before {
+                                    content: "";
+                                    position: absolute;
+                                    right: 45px;
+                                    top: -10px;
+                                    width: 0;
+                                    height: 0;
+                                    border-style: solid;
+                                    border-width: 0 10px 10px 10px;
+                                    border-color: transparent transparent #ffffff transparent;
+                                    z-index: 9999;
+                                }
+                               
+#business-listing .card-header button:focus{outline: none;}
+#business-listing .modal-body .note-toolbar .note-btn{padding: 4px 8px;}
+#business-listing .modal-body .note-editing-area{min-height: 200px;}
+
+/*---Business-Listing-End--*/
+
+/*---Groups-Start----*/
+#group tbody .group-name{color: #ffa800; font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;}
+    #group tbody .group-name .dot{display: inline-block;
+        font-size: 30px;
+        
+        padding-right: 8px;
+        cursor: pointer;}
+        #group .caret {
+            margin-left: 10px !important;    
+        }
+        #group .btn-default {
+            color: #fff;
+            background-color: #2e6da4;
+            border-color: #fff;
+        }
+
+/*---Groups-End----*/
